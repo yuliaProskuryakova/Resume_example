@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Form</title>
+    <link rel="stylesheet" href="form_style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form
+        action="mailto:pchilko@mail.ru"
+        enctype="multipart/form-data"
+        class="dline"
+      >
+        <div>
+          <label for="first_name">First Name:</label>
+          <input id="first_name" type="text" name="first_name" required />
+        </div>
+
+        <div>
+          <label for="last_name">Last Name:</label>
+          <input id="last_name" type="text" name="last_name" required />
+        </div>
+
+        <div class="date-input">
+          <label for="date">Date:</label>
+          <input id="date" type="date" name="date" required />
+        </div>
+
+        <div>
+          <label for="file">Upload file:</label>
+          <input id="file" type="file" name="file" required />
+        </div>
+        <div>
+          <label for="city-select"
+            >Your city
+            <select name="city" id="city-select" required="required">
+              <option value="">Select city</option>
+              <option value="New York">New York</option>
+              <option value="London">London</option>
+              <option value="Paris">Paris</option>
+              <option value="Berlin">Berlin</option>
+              <option value="Moscow">Moscow</option>
+              <option value="Minsk">Minsk</option>
+              <option value="Astana">Astana</option>
+              <option value="Tokio">Tokio</option>
+            </select>
+          </label>
+        </div>
+
+        <div>
+          <label for="agreement"
+            >I agree...
+            <input type="checkbox" name="agreement" required />
+          </label>
+        </div>
+
+        <div class="gender-radio">
+          <label for="gender">
+            <input type="radio" name="gender" value="man" required />man
+          </label>
+          <label for="gender">
+            <input type="radio" name="gender" value="woman" />woman
+          </label>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>

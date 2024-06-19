@@ -1,0 +1,106 @@
+.container {
+  margin: 0 auto;
+  max-width: 1300px;
+}
+
+header {
+  margin: 10px 0 100px 0;
+}
+
+.container__header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header_nav {
+  display: flex;
+  width: 250px;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.header_nav > li:not(:last-child) {
+  padding: 0 15px 0 0;
+  border-right: 1px solid black;
+}
+
+nav {
+  margin-bottom: 50px;
+}
+li {
+  margin-right: 5px;
+}
+
+.myName {
+  font-size: 6em;
+}
+
+.header_image {
+  width: 100px;
+}
+
+.container__main {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+aside {
+  max-width: 300px;
+  margin-left: 10px;
+  line-height: 2.5em;
+}
+
+.Skills {
+  margin-bottom: 20px;
+}
+
+aside > h2 {
+  margin-bottom: 30px;
+}
+
+.language {
+  margin-bottom: 20px;
+  margin-top: 75px;
+}
+
+article {
+  max-width: 800px;
+}
+
+p {
+  margin-bottom: 80px;
+  margin-top: 30px;
+}
+
+section > h2 {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+h3 {
+  margin-top: 30px;
+}
+
+span {
+  display: flex;
+  justify-content: right;
+}
+
+.duties_list {
+  list-style-type: disc;
+  margin-bottom: 10px;
+}
+
+.education {
+  margin-top: 80px;
+}
+
+.container_footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  background-color: black;
+  color: white;
+}

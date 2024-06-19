@@ -1,0 +1,64 @@
+body {
+  background-color: rgb(76, 76, 227);
+}
+
+.container {
+  max-width: 100%;
+  width: 300px;
+  height: 315px;
+  margin-top: 80px;
+}
+div {
+  margin: 0px auto;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 8px;
+  background-color: aliceblue;
+}
+
+label {
+  color: rgb(26, 134, 235);
+}
+
+input[type="text"] {
+  border: none;
+  border-bottom: solid 2px #474544;
+  margin-left: 20px;
+}
+
+input[type="date"] {
+  margin-left: 60px;
+  display: inline-block;
+  width: 56%;
+  border: none;
+  border-bottom: solid 2px #474544;
+}
+
+input[type="file"] {
+  max-width: 58%;
+  margin-left: 18px;
+}
+
+#city-select {
+  margin-left: 36px;
+  display: inline-block;
+  width: 58%;
+}
+
+input[type="checkbox"] {
+  margin-left: 110px;
+}
+
+.gender-radio {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 35px;
+}
+
+button {
+  margin-right: 20px;
+  margin-left: 20px;
+  width: 85%;
+  font-size: 9px;
+}
